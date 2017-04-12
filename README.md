@@ -166,7 +166,8 @@ This property allow change the opening mode of the sidebar, you can choose from 
 #### opened (*boolean*: **true** | **false**)
 > Default: *false*
 
-This property show or hidden the sidebar.
+This property shows or hides the sidebar. Depending on the sidebar state, its wrapper element 
+features `class="side-bar-content opened"` and `class="side-bar-content closed"` class names.
 
 #### side (*string*: **Sidebar.LEFT** | **Sidebar.RIGHT**)
 > Default: *Sidebar.LEFT*
